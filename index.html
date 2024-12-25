@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+
+    <title>myNETwork</title>
+
+</head>
+
+<body>
+    <h1>myNETwork</h1>
+
+    <main>
+        <p id="boasvindas">Seja bem vindo. Inicie sessão ou crie a sua conta!</p>
+
+        <section>
+            <form action="login.php" method="post" autocomplete="off">
+                 
+                <p class="caixa1">
+                    <label for="iEmail">E-mail</label> <br>
+                    <img src="imagens/email-removebg-preview.png" alt="email" id="email"> 
+                    <input type="text" name="Email" id="iEmail" required placeholder="Digite seu e-mail">
+
+                </p>
+
+                <p class="caixa2">
+                    <label for="ipalavra-passe">Palavra-passe</label> <br>
+                    <img src="imagens/palavra_passe-removebg-preview.png" alt="p-p" id="palavra-passe">
+                    <input type="password" name="Palavra passe" id="ipalavra-passe" required placeholder="Digite sua palavra-passe">
+
+                </p>
+
+                <p><input type="submit" value="Iniciar Sessão" id="entrar"></p>
+                <h2>Criar Conta</h2>
+                <p id="esquecer"><a href="login.php">Esqueceu a sua palavra-passe?</a></p>
+
+            </form>
+
+        </section>
+       
+
+    </main>
+    
+</body>
+
+</html>
